@@ -10,6 +10,14 @@ export const REGISTRY_BRANCH = "main";
 export const REGISTRY_BASE_URL = `https://raw.githubusercontent.com/${REGISTRY_OWNER}/${REGISTRY_REPO}/${REGISTRY_BRANCH}`;
 export const COMPONENTS_JSON_URL = `${REGISTRY_BASE_URL}/docs/components.json`;
 
+// GitHub API URLs (for private repos)
+export const GITHUB_API_BASE = `https://api.github.com/repos/${REGISTRY_OWNER}/${REGISTRY_REPO}`;
+export const GITHUB_API_CONTENTS = `${GITHUB_API_BASE}/contents`;
+
+// Override registry URL or local path via environment variable
+// Set BNSKILLS_REGISTRY to a local file path or custom URL for testing
+export const REGISTRY_OVERRIDE = process.env["BNSKILLS_REGISTRY"];
+
 export const COPY_EXCLUDE_PATTERNS = [
   ".git",
   ".gitignore",
