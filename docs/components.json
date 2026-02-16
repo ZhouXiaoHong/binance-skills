@@ -1,0 +1,72 @@
+[
+  {
+    "name": "smart-contract-audit",
+    "description": "Audit Solidity smart contracts for common vulnerabilities",
+    "provider": "official",
+    "category": "blockchain",
+    "type": "skill",
+    "version": "1.0.0",
+    "author": "binance",
+    "tags": ["blockchain", "solidity", "security"],
+    "downloads": 1234,
+    "path": "official/blockchain/smart-contract-audit",
+    "files": ["SKILL.md", "checklist.md", "templates/audit-report.md", "templates/findings.md"],
+    "updatedAt": "2026-02-16T00:00:00Z"
+  },
+  {
+    "name": "grid-strategy",
+    "description": "Design and analyze grid trading strategies for cryptocurrency pairs",
+    "provider": "official",
+    "category": "trading",
+    "type": "skill",
+    "version": "1.0.0",
+    "author": "binance",
+    "tags": ["trading", "grid", "strategy"],
+    "downloads": 567,
+    "path": "official/trading/grid-strategy",
+    "files": ["SKILL.md"],
+    "updatedAt": "2026-02-16T00:00:00Z"
+  },
+  {
+    "name": "api-key-rotation",
+    "description": "Guide for implementing secure API key rotation practices",
+    "provider": "official",
+    "category": "security",
+    "type": "skill",
+    "version": "1.0.0",
+    "author": "binance",
+    "tags": ["security", "api", "devops"],
+    "downloads": 890,
+    "path": "official/security/api-key-rotation",
+    "files": ["SKILL.md", "scripts/rotate.sh", "scripts/check-expiry.py"],
+    "updatedAt": "2026-02-16T00:00:00Z"
+  },
+  {
+    "name": "yield-farming",
+    "description": "Analyze and compare DeFi yield farming strategies across protocols",
+    "provider": "community",
+    "category": "defi",
+    "type": "skill",
+    "version": "1.0.0",
+    "author": "defi-community",
+    "tags": ["defi", "yield", "farming", "aave", "compound"],
+    "downloads": 345,
+    "path": "community/defi/yield-farming",
+    "files": ["SKILL.md", "config.json", "examples/aave-strategy.md"],
+    "updatedAt": "2026-02-16T00:00:00Z"
+  },
+  {
+    "name": "cursor-rules-generator",
+    "description": "Generate Cursor IDE rules and agent configurations from templates",
+    "provider": "community",
+    "category": "tooling",
+    "type": "skill",
+    "version": "1.0.0",
+    "author": "tooling-community",
+    "tags": ["tooling", "cursor", "rules", "agent"],
+    "downloads": 210,
+    "path": "community/tooling/cursor-rules-generator",
+    "files": ["SKILL.md", "templates/rule.hbs", "templates/agent.hbs", "README.md"],
+    "updatedAt": "2026-02-16T00:00:00Z"
+  }
+]

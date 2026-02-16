@@ -1,0 +1,12 @@
+{
+  "name": "binance-skills",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "cli"
+  ],
+  "scripts": {
+    "build": "npm run build --workspace=cli",
+    "dev": "npm run dev --workspace=cli"
+  }
+}
