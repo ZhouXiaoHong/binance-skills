@@ -1,0 +1,30 @@
+{
+  "name": "bnskills",
+  "version": "1.0.0",
+  "description": "Binance Agent Skills CLI - Install AI agent skills from the Binance Skills registry",
+  "type": "module",
+  "bin": {
+    "bnskills": "./bin/cli.mjs"
+  },
+  "scripts": {
+    "build": "obuild",
+    "dev": "obuild --watch",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "bin",
+    "dist"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "@clack/prompts": "^0.11.0",
+    "gray-matter": "^4.0.3",
+    "picocolors": "^1.1.1",
+    "xdg-basedir": "^5.1.0",
+    "typescript": "^5.7.0",
+    "obuild": "^0.4.0"
+  }
+}
