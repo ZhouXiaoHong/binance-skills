@@ -3,7 +3,7 @@
 ## Adding a New Skill
 
 1. Fork this repository
-2. Create a skill directory under `community/<category>/`
+2. Create a skill directory under `skills/`
 3. Add a `SKILL.md` file with required frontmatter
 4. Submit a Pull Request
 
@@ -12,7 +12,7 @@
 Each skill is a directory containing at minimum a `SKILL.md` file:
 
 ```
-community/defi/my-skill/
+skills/my-skill/
 ├── SKILL.md              # Required entry file
 ├── additional-docs.md    # Optional supporting files
 ├── scripts/              # Optional scripts
@@ -50,8 +50,6 @@ Detailed instructions for the AI agent...
 
 ## Guidelines
 
-- Community contributions go to `community/` directory only
-- `official/` directory is reserved for Binance internal skills
 - Skill names must be unique across the entire registry
 - Keep SKILL.md focused and actionable for AI agents
 - Test your skill with at least one agent before submitting

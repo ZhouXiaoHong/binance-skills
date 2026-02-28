@@ -1,0 +1,31 @@
+# Agent Configuration: {{agent_name}}
+
+## Skills
+
+{{#each skills}}
+- **{{this.name}}**: {{this.description}}
+  - Path: `{{this.path}}`
+  - Version: {{this.version}}
+{{/each}}
+
+## Settings
+
+{{#if settings}}
+{{#each settings}}
+- `{{@key}}`: {{this}}
+{{/each}}
+{{else}}
+No custom settings configured.
+{{/if}}
+
+## Rules
+
+{{#if rules}}
+{{#each rules}}
+### {{this.name}}
+- Scope: `{{this.scope}}`
+- Priority: {{this.priority}}
+{{/each}}
+{{else}}
+No custom rules configured.
+{{/if}}

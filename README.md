@@ -22,13 +22,12 @@ npx bnskills remove smart-contract-audit
 
 ```
 binance-skills/
-├── official/          # Binance official skills
-│   ├── blockchain/
-│   ├── trading/
-│   └── security/
-├── community/         # Community contributed skills
-│   ├── defi/
-│   └── tooling/
+├── skills/            # All skills (flat structure)
+│   ├── smart-contract-audit/
+│   ├── api-key-rotation/
+│   ├── grid-strategy/
+│   ├── yield-farming/
+│   └── cursor-rules-generator/
 ├── cli/               # CLI tool (bnskills)
 ├── docs/              # Generated static data
 │   └── components.json

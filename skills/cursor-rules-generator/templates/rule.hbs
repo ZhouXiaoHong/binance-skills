@@ -1,0 +1,30 @@
+---
+description: {{description}}
+globs: {{file_pattern}}
+alwaysApply: {{#if always_apply}}true{{else}}false{{/if}}
+---
+
+# {{rule_name}}
+
+{{instructions}}
+
+{{#if examples}}
+## Examples
+
+{{#each examples}}
+### {{this.title}}
+
+```{{this.language}}
+{{this.code}}
+```
+
+{{/each}}
+{{/if}}
+
+{{#if references}}
+## References
+
+{{#each references}}
+- {{this}}
+{{/each}}
+{{/if}}
